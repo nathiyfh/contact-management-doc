@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .container h2 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 16px;
+            margin-bottom: 40px;
+            color: #555;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .buttons a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Portal</h1>
+</header>
+
+<div class="container">
+    <h2>Your Actions</h2>
+    <p class="description">
+        Choose one of the following options to proceed. You can submit your Dropbox link, log in to your account, or provide your project requirements.
+    </p>
+
+    <div class="buttons">
+        <a href="dropbox-login.html">Submit Dropbox Link</a>
+        <a href="login.html">Login</a>
+        <a href="requirements.html">Requirement Gathering</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Our Portal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
